@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{ 
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    font-family: "Chakra Petch", sans-serif;
+    background-color: rgb(245, 144, 137);
+    text-align: center;
+    border-radius: 50px 0 50px 0;
+    
+}
+
+.box{
+    width: 650px;
+    height: 630px;
+    margin: 0 auto;
+    margin-top: 1em;
+    background-image: url(https://t4.ftcdn.net/jpg/02/23/82/83/360_F_223828327_QyLrdWkm3DrVCfuHzGvTayT6vsE24d0L.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* color palette one */
+
+
+
+.colors1{
+    position:relative;
+
+}
+
+.one, .two, .three, .four, .five,
+.six, .seven, .eight, .nine{
+
+    width: 85px;
+    height: 85px;
+    position:absolute;
+    border-radius: 50%;
+    margin-top: 1em;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: rgb(99, 23, 170);
+    
+    
+}
+
+.one{
+    background-color: #91c8e5;
+    left: 10%;
+    z-index: 1;
+}
+
+.two{
+    background-color: #67a7c9;
+    left: 18%;
+    z-index: 2;
+    margin-top: 3em;
+}
+
+
+.three{
+    background-color: #4e8eb1;
+    left: 26%;
+    z-index: 1;  
+}
+
+
+.four{
+    background-color: #387697;
+    left: 33%;
+    z-index: 2;
+    margin-top: 3em;
+      
+}
+
+
+.five{
+    background-color: #286484;
+    left: 41%;
+    z-index: 1;
+     
+}
+
+
+.six{
+    background-color: #184e6c;
+    left: 49%;
+    z-index: 2;
+    margin-top: 3em;
+     
+}
+
+
+
+.seven{
+    background-color: #0e3d56;
+    left: 57%;
+    z-index: 1;
+   
+     
+}
+
+
+.eight{
+    background-color: #062c40;
+    left: 65%;
+    z-index: 2;
+    margin-top: 3em;   
+}
+
+
+.nine{
+    background-color: #021f2e;
+    left: 73%;
+    z-index: 1;
+      
+}
+
+
+/* color palette two */
+
+
+.colors2{
+    margin-top: 11em;
+    position: relative;
+    
+} 
+
+.one1, .two2, .three3, .four4,
+ .five5, .six6, .seven7, .eight8, .nine9{
+    width: 85px;
+    height: 85px;
+    position:absolute;
+    border-radius: 50%;
+    margin-top: 1em;
+    
+}
+
+.one1{
+    background-color: #eb8888;
+    left: 10%;
+    z-index: 1;
+}
+
+
+.two2{
+    background-color: #c75e5e;
+    left: 18%;
+    z-index: 2;
+    margin-top: 3em;
+} 
+
+
+.three3{
+    background-color: #ac4646;
+    left: 26%;
+    z-index: 1;
+} 
+
+
+.four4{
+    background-color: #993838;
+    left: 33%;
+    z-index: 2;
+    margin-top: 3em;
+} 
+
+
+.five5{
+    background-color: #862b2b;
+    left: 41%;
+    z-index: 1;
+   
+} 
+
+
+.six6{
+    background-color: #742020;
+    left: 49%;
+    z-index: 2;
+    margin-top: 3em;
+   
+} 
+
+
+.seven7{
+    background-color: #5c1313;
+    left: 57%;
+    z-index: 1;  
+} 
+
+
+.eight8{
+    background-color: #460b0b;
+    left: 65%;
+    z-index: 2;
+    margin-top: 3em;
+   
+   
+} 
+
+.nine9{
+    background-color: #2b0505;
+    left: 73%;
+    z-index: 1;
+   
+} 
+
+
+/* color palette three */
+
+
+.colors3{
+    position: relative;
+    margin-top: 11em ;
+}
+
+.one01, .two02, .three03, .four04, .five05,
+ .six06, .seven07, .eight08, .nine09{
+    width: 85px;
+    height: 85px;
+    position:absolute;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.one01{
+   background-color:  #f4c098;
+   left: 10%;
+   z-index: 1;
+}
+
+
+.two02{
+    background-color:  #e0a97f;
+    left: 18%;
+    z-index: 2;
+    margin-top: 3em;
+ }
+
+ 
+.three03{
+    background-color:  #ce9468;
+    left: 26%;
+    z-index: 1;
+   
+ }
+
+ 
+.four04{
+    background-color:  #c08151;
+    left: 33%;
+    z-index: 2;
+    margin-top: 3em;
+ }
+
+ 
+.five05{
+    background-color:  #b06f3e;
+    left: 41%;
+    z-index: 1;
+   
+ }
+
+ 
+.six06{
+    background-color:  #9e5d2c;
+    left: 49%;
+    z-index: 2;
+   margin-top: 3em;
+ }
+
+ 
+.seven07{
+    background-color:  #884b1d;
+    left: 57%;
+    z-index: 1;
+   
+ }
+
+ 
+.eight08{
+    background-color:  #6f3910;
+    left: 65%;
+    z-index: 2;
+    margin-top: 3em;
+   
+ }
+
+
+ 
+.nine09{
+    background-color:  #532705;
+    left: 73%;
+    z-index: 1;
+   
+   
+ }
